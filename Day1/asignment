@@ -1,0 +1,10 @@
+Problem 1:
+Cubic Maze n*n*n
+single integer n
+Output 1 number of ways
+0<n<8
+Samble
+1 1 6
+2 2 90
+Problem 2:
+Sum of all even number till N where an even number is a number with only 2 active 1's in it
