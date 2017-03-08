@@ -1,0 +1,22 @@
+import java.sql.*;
+
+/* Create a Connection */
+String url="jdbc:mysql://localhost:3306/dbname";
+String user="root";
+String pass="toor";
+Connection myConn= DriverManager.getConnection(url,user,pass);
+//thrown Exception SQLException ClassNotFoundException
+
+
+/* Create a Statement Which Help to Execute SQL queries */
+Statement mystatement =myConn.createStatement();
+/* Execute Query */
+ResultSet myRes= mysatement.executeQuery("select * from whatever");
+
+
+/* Process the ResultSet */
+while(myRes.next())
+{
+	System.out.println(myRes.getString("Col1");
+	System.out.println(myRes.getString("Col2");
+}

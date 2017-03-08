@@ -1,0 +1,33 @@
+Eclipse
+
+
+File->New->Java Project
+Give the ProjectName and Click Finish
+
+Right click on the ProjectName->Src in the Left Folder and click new Class
+
+Enter the Class name in the Dialog which appeared
+Select psvm(String args[])
+Click Finish
+
+
+
+RightCLick on the ProjectName->New->Folder(make with "lib")->Finish
+
+Drag and Drop the jdbcdriver.jar file in lib folder
+From the Dialog
+Select Copy Files->Click OK
+
+
+RightCLick on ProjectName->Properties
+Click on Add JARs in the Window appeared
+From the Window Appeard
+Click on the ProjectName->lib->and Select jdbcdriver.jar
+Click OK
+Click OK
+
+
+
+
+
+
