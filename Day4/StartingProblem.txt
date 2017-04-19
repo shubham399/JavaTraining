@@ -1,0 +1,27 @@
+
+
+if(n<=1)
+SOP(n)
+else
+{
+f(n/2)
+SOP(n%2);
+}
+
+
+
+
+int fun(unsigned int n)
+{
+if(n==0 || n==1)
+return n;
+if(n%3 != 0)
+return 0;
+return fun(n/3);
+}
+
+
+n=6;
+n=3;
+n=1;
+
